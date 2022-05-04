@@ -1,0 +1,91 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        padding-top: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width:930px){
+    .botao{
+        margin-top: 5px;
+        width: 190px;
+    }
+}
+
+@media screen and (min-width:900px){
+    .serie-principal .container{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:530px){
+    .serie-principal{
+        position: relative;
+    }
+    
+    .serie-principal .container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -30% 0 0 -30%;
+        background-color: transparent;
+        
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+
+    .botoes .botao{
+        margin:5px ;
+    }
+
+    .serie-principal .descricao{
+        font-size: 12px;
+    }
+
+    .serie-principal .titulo-serie-banner{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:330px){
+    header .container{
+        margin:0px;
+        height: 145px;
+        margin-bottom: 5px;
+    }
+    
+    header .logo-escrito{
+        margin: 0px;
+    }
+    
+    header .container nav a{
+        display: flex;
+        flex-direction: row;
+        text-align: center;       
+        margin: 0px;
+        
+    }
+
+    header .container nav a{
+        text-align: center;
+        display: block;
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    header .container nav{
+        background-color: transparent;        
+        width: 100%;
+        
+    }
+}
